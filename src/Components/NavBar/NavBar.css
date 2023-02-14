@@ -1,0 +1,85 @@
+#NavBarContainer{
+    background-color:white;
+    border-right: 1px solid #dbdbdb;
+    flex-direction: column;
+    display: flex;
+    width: max-content;
+    position: fixed;
+    left:0px;
+    top:0px;
+    padding-left: 20px;
+    padding-top: 30px;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+    #NavBarContainer {
+        width: 250px; 
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #NavBarContainer {
+        width: 60px; 
+    }
+}
+
+.navbar-item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: max-content;
+}
+
+.navbar-item-bottom{
+    
+    flex-grow: 1;
+    align-items: flex-end;
+    margin-bottom: 40px;
+    display: flex;
+    margin-left: 10px;
+    flex-direction: row;
+    width: max-content;
+
+}
+
+.navbar-icon-text {
+    color: rgb(38, 38, 38);
+    /* font-weight: 500; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .navbar-icon-text {
+      display: block;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-icon-text {
+      display:none;
+    }
+}
+
+@media (min-width: 768px) {
+  .navbar-item-container-logo {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-item-container-logo {
+    display:none;
+  }
+}

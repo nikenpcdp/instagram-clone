@@ -1,0 +1,154 @@
+#Feed {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+}
+
+.thumbnail-profile {
+    border: 0.5px solid gray;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 5px;
+}
+.thumbnail {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: auto;
+    height: max-content;
+    margin-top: 20px;
+    border-bottom: 0.2px solid #dbdbdb;
+}
+
+.feed-user {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.button-more-option{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.button{
+    cursor: pointer;
+}
+.feed-action {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action-item {
+    margin-right: 20px;
+}
+
+.save-button {
+    margin-right: 0px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.thumbnail-text {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+    font-family: Arial;
+    font-weight: "semibold";
+    cursor: pointer;
+}
+.feed-image {
+    width: 100%;
+    height: auto;
+    border: 0.2px gray;
+    object-fit: cover;
+}
+.feed-container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+.post-created{
+    font-family: arial;
+    justify-content: last baseline;
+    font-size: 15px;
+    color: grey;
+    text-align:end;
+    margin-left: 15px;
+}
+.button-Caption{
+    flex-direction: row;
+}
+
+.feed-comment {
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: Arial;
+}
+
+.comment-input-container{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.comment-input {
+    height: 18px !important;
+    display: flex;
+    border:none;
+    outline: none;
+    width: 100%;
+    resize: none;
+    font-family: Arial;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.post-button {
+    align-items: center;
+    color: rgb(0, 149, 246);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.post-button:hover {
+    color: "#828282";
+}
+
+.translation {
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Arial
+}
+.comment{
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caption{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.totalLikes{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.full-button {
+    fill: red;
+  }
